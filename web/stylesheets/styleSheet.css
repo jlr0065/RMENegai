@@ -1,0 +1,109 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #f8f8f8;
+    opacity: 0.8;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    margin: 0 40px;
+    opacity: 1;
+}
+
+.navigation a:hover{
+    color: #0069d9;
+    background-color: #b2d5d6;
+}
+
+.container {
+    padding: 70px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+}
+.fa-solid{
+    color: goldenrod;
+}
+.cart p{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: goldenrod;
+    color: white;
+}
+
+
+.content {
+    text-align: center;
+    width: 65%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+.content-box {
+    color: white;
+    margin: 0 auto;
+}
+
+
+.content-box h1 {
+    font-size: 100px; /* Adjust as needed */
+    font-weight: bold;
+    color: #f8f8f8; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    margin-bottom: 20px;
+}
+
+.panel-grid-item {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.panel-grid-item label {
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+}
+.panel-grid-item span {
+  display: inline-block;
+  width: calc(100% - 200px);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/orderForm.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+</head>
+<body class="background">
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/Logo2.png" alt="Company Logo">
+            </a>
+        </div>
+        <nav class="navigation">
+            <a href="#">About Us</a>
+            <a href="Main_Webpages/products.html">Our Products</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+        <a href="Cart.html" class="cart">
+            <i class="fa-solid fa-cart-shopping"></i><p id="count">0</p>
+        </a>
+    </header>
+
+    <div class="container">
+        <h1 class="form-title">Delivery Details</h1>
+        <form id="orderForm" class="form">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" name="name" class="form-input" required><br><br>
+            
+            <label for="address" class="form-label">Address:</label>
+            <input type="text" id="address" name="address" class="form-input" required><br><br>
+            
+            <label for="phone" class="form-label">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0]{1}[0-9]{10}" class="form-input" required><br><br>
+
+            <button type="submit" class="form-button">Proceed</button>
+        </form>
+
+
+    </div> 
+
+    <script src="../scripts/orderForm.js"></script>
+</body>
+</html>

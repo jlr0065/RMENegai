@@ -1,0 +1,105 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 May 2024, 13:32:59
+    Author     : name
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #f8faff;
+    opacity: 0.8;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    margin: 0 40px;
+    opacity: 1;
+}
+
+.navigation a:hover{
+    color: #0069d9;
+    background-color: #b2d5d6;
+}
+
+.cart{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+}
+.fa-solid{
+    color: goldenrod;
+}
+.cart p{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: goldenrod;
+    color: white;
+}
+
+
+.form {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-title {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 18px;
+}
+
+.form-input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-button {
+    background-color: #007bff;
+    color: white;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

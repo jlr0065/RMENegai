@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/Cart.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/Logo2.png" alt="Company Logo">
+            </a>
+        </div>
+        <nav class="navigation">
+            <a href="#">About Us</a>
+            <a href="Main_Webpages/products.html">Our Products</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+        <a href="Cart.html" class="cart">
+            <i class="fa-solid fa-cart-shopping"></i><p id="count">0</p>
+        </a>
+</header>
+
+
+<div class="container">
+    <div id="root"></div>
+    <div class="sidebar">
+        <div class="head"><p>My Cart</p></div>
+        <div id="cartItem">Your cart is empty</div>
+        <div class="foot">
+            <h3>Total</h3>
+            <button type="button" class="btn-buy">Buy Now</button>
+            <h2 id="total">$ 0.00</h2>
+        </div>
+    </div>
+</div> 
+<script src="../scripts/cart.js"></script>
+
+</body>
+</html>
